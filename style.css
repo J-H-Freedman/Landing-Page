@@ -5,11 +5,14 @@
 #main {
 	margin: 1% 5%;
 	padding: 3% 10%;
-  background-color: #EEE;
+ 	background-color: #EEE;
+
+ 	display: flex;
+ 	flex-wrap: wrap;
+ 	justify-content: center;
 }
 
 .container {
-	display: block;
 	padding: 3% 7.5%;
 }
 
@@ -23,15 +26,16 @@
 }
 
 #video-container {
-	width: 50vw;
-	height: 100%;
 	margin: 0 auto;
 	background-color: green;
+
+	display: flex;
+	justify-content: center;
+	align-content: stretch;
 }
 
 #video {
-	width: 100%;
-	height: 100%;	
+	
 }
 
 #form-container {
